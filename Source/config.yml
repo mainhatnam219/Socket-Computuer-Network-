@@ -1,0 +1,27 @@
+Server:
+    MailServer: 127.0.0.1
+    SMTP: 2500
+    POP3: 1100
+    bufferSize: 2046
+Authentication:
+    username: mainhatnam01@gmail.com
+    password: xxxx
+Filter:
+    Important:
+        From: []
+        Subject: ['urgent', 'ASAP']
+        Content: []
+    Work:
+        From: []
+        Subject: []
+        Content: ['report', 'meeting']
+    Spam:
+        From: []
+        Subject: []
+        Content: ['virus', 'hack', 'crack']
+    Project:
+        From: ['myboss@gmail.com']
+        Subject: []
+        Content: []
+Autoload:
+    Time: 5
